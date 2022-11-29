@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <style>
+      body{
+        background-color: #595959bc;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      }
+      div.form{
+        box-shadow: 2px 2px 30px #1a1a1a;
+        width: 45vw;
+        background-color: #bfbfbf;
+        text-align: center; 
+        border-left-color: #a6a6a6;
+      }
+      form{
+        border-left-style: solid;
+        border-color: #9933ff;
+        border-left-width: 5px;
+        padding: 15px;
+      }
+      h1{
+        color: #f2f2f2;
+        text-align: center;
+      }
+      input[type=text]{
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        border: 0px;
+      }
+      input[type=submit]{
+        background-color: #b366ff;
+        width: 90px;
+        height: 30px;
+        border: 0px;
+      }
+      input[type=submit]:hover{
+        background-color: #a64dff;
+      }
+      span{
+        color: #ffffff;
+      }
+    </style>
+    <title>Insurance  as a Flask API</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Medical Insurance Prediction</h1>
+    <center>
+    <body>
+        <form action = "/result" method = "POST">
+
+            <p>Age             <input type="text" name = "Age" /></p>
+            <p>Sex             <input type="text" name = "Sex" /></p>
+            <p>Bmi             <input type="text" name = "Bmi" /></p>
+            <p>Children        <input type="text" name = "Children" /></p>
+            <p>Smoker          <input type="text" name = "Smoker" /></p>
+            <p>Region          <input type="text" name = "Region" /></p>
+
+            <p>                <input type="submit" value = "submit" /></p>
+
+
+        </form>    
+    
+    </body>    
+
+</html>>
